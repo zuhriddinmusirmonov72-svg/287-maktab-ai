@@ -1,0 +1,30 @@
+{
+  "name": "uz-ai-hub",
+  "version": "1.0.0",
+  "description": "Professional Telegram AI Assistant for Uzbekistan - supports Uzbek, Russian, and English",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "ai",
+    "assistant",
+    "uzbekistan",
+    "openrouter"
+  ],
+  "author": "UZ AI HUB Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "sql.js": "^1.12.0",
+    "dotenv": "^16.4.5"
+  }
+}
