@@ -1,11 +1,10 @@
 services:
-  - type: web
+  - type: worker
     name: uz-ai-hub
     env: node
     plan: free
     buildCommand: npm install
     startCommand: npm start
-    healthCheckPath: /
     envVars:
       - key: NODE_ENV
         value: production
